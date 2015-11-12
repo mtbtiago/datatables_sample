@@ -8,13 +8,13 @@ class UserDatatable < AjaxDatatablesRails::Base
   def sortable_columns
     # list columns inside the Array in string dot notation.
     # Example: 'users.name'
-    @sortable_columns ||= ['users.name' ,'users.phone']
+    @sortable_columns ||= ['users.name', 'users.phone', 'users.address']
   end
 
   def searchable_columns
     # list columns inside the Array in string dot notation.
     # Example: 'users.name'
-    @searchable_columns ||= ['users.name' ,'users.phone']
+    @searchable_columns ||= ['users.name', 'users.phone', 'users.address']
   end
 
   private
