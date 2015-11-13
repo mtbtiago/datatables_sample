@@ -10,7 +10,7 @@ $ ->
     pagingType: 'full_numbers'
     language:
       decimal:        ','
-      emptyTable:     "No s'han trobat dades"
+      emptyTable:     "No s'han trobat registres"
       info:           'Mostrant _START_ a _END_ de _TOTAL_ registres'
       infoEmpty:      'Mostrant 0 a 0 de 0 registres'
       infoFiltered:   "(Filtrat d'un total de _MAX_ registres)"
@@ -19,11 +19,11 @@ $ ->
       lengthMenu:     'Mostrant _MENU_ registres'
       loadingRecords: 'Carregant ...'
       processing:     'Processant ...'
-      search:         'Cercar:'
+      search:         'Filtrar:'
       zeroRecords:    "No s'han trobat registres"
       paginate:
         first: 'Primer'
-        last: 'Darrer'
+        last: 'Últim'
         next: 'Següent'
         previous: 'Anterior'
     # Check dataTables documentation to learn more about
