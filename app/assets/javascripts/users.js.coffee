@@ -2,7 +2,7 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 $ ->
-  $('#users-table').dataTable
+  table = $('#users-table').dataTable
     processing: true
     serverSide: true
     ajax: $('#users-table').data('source')
