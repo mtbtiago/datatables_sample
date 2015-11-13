@@ -14,6 +14,7 @@
  *= require jquery-ui
  *= require bootstrap
  *= require dataTables/bootstrap/3/jquery.dataTables.bootstrap
+*= require datatables-responsive
  **** require dataTables/jquery.dataTables
  *= require_self
  */

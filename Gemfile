@@ -40,7 +40,8 @@ gem 'kaminari'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap'
-  # gem 'rails-assets-footable', '>= 2.0.3'
+  gem 'rails-assets-datatables-responsive'
+  gem 'rails-assets-datatables.net-rowreorder-bs'
 end
 
 gem 'faker'
