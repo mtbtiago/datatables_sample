@@ -1,8 +1,3 @@
+Cloned from https://github.com/trkrameshkumar/simple_app for my own testing
 
-Tutorial for Integrating ajax-datatable-rails, on Rails 4 .
-
-Part-1 The-Installation
-
-Part 2 The Datatables with ajax functionality
-
-The complete project code for this tutorial series is available on github.
+Thanks to https://github.com/trkrameshkumar
