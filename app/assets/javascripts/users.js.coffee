@@ -2,10 +2,10 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 $ ->
-  table = $('#users-table').dataTable
+  table = $('.datatable').dataTable
     processing: true
     serverSide: true
-    ajax: $('#users-table').data('source')
+    ajax: $('.datatable').data('source')
     paging: true
     pagingType: 'full_numbers'
     colReorder: true
@@ -29,3 +29,10 @@ $ ->
         previous: 'Anterior'
     # Check dataTables documentation to learn more about
     # available options.
+
+  $(".dataTables_filter").append(
+    "<button class='btn btn-default btn-sm' type='button' id='clear-filter'> <span class='glyphicon glyphicon-remove'></span></button>")
+
+  $('#clear-filter').on 'click', (e) ->
+    $('input[type=search]').val('')
+    table.fnFilter('')
