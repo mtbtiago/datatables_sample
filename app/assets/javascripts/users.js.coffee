@@ -8,6 +8,7 @@ $ ->
     ajax: $('#users-table').data('source')
     paging: true
     pagingType: 'full_numbers'
+    colReorder: true
     language:
       decimal:        ','
       emptyTable:     "No s'han trobat registres"

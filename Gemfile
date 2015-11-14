@@ -36,12 +36,14 @@ gem 'ajax-datatables-rails'
 # https://github.com/DevanB/datatables-rails-bs3
 gem 'datatables-rails-bs3'
 
-gem 'kaminari'
+# gem 'kaminari'
+# https://github.com/mislav/will_paginate
+gem 'will_paginate', '~> 3.0.6'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap'
   gem 'rails-assets-datatables-responsive'
-  gem 'rails-assets-datatables.net-rowreorder-bs'
+  gem 'rails-assets-datatables.net-colreorder-bs'
 end
 
 gem 'faker'
